@@ -1,0 +1,136 @@
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    min-height: 100px;
+}
+
+.nav-link{color: #58b4ae;}
+.nav-link:hover { color: #ff9234;}
+.nav-link{ font-size: 25px;}
+
+
+
+h1{ 
+    font-size: 80px;
+    font-weight: 600px;
+    line-height: 80px;
+    color: #f7f141;
+}
+h2{
+    font-size: 40px;
+    color: #58b4ae;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+p{
+    font-size: 25px;
+     color: #f7f141;
+     line-height: 1.8;
+     margin-bottom: 0;
+}
+
+
+
+.skills{
+    list-style:none;
+       text-align: left;
+    color: black;
+    font-size: 20px;
+   
+}
+
+
+
+.parrafo1{
+    color: black;
+    font-size: 20px;
+}
+
+
+
+.quiensoy-container{
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+.quiensoy-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.bg-dark{
+    background-color: #f4f4f4 !important;
+}
+ 
+.img-fluid{
+    size: 200px;
+}
+
+
+.topmargin-xs{ margin-top: 15px;}
+.topmargin-sm{ margin-top: 30px;}
+.topmargin-lg{ margin-top: 60px;}
+
+.logo-brand{
+    min-width: 30px;
+    max-width: 50px;
+}
+
+.navbar-toggler {font-size: 40px;}
+.navbar-toggler:focus{outline:none}
+
+#hero1 {
+    background-image: url("imagenes/programacion.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 500px;
+    color: #dee3e2;
+
+
+}
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+}
+
+#footer{
+    padding: 80px 0;
+    text-align: center;
+
+}
+
+#footer a {
+    color:#58b4ae;
+}
+
+#footer a:hover {
+    color: #ff9234;
+
+}
+
+.footer .list-inline .list-inline-item{
+    padding: 10px 15px;
+
+
+
+}
+
+
+@media (max-width: 575.98px) { 
+    h1 {font-size: 40px; line-height: normal;
+}
+@media (min-width: 576px) and (max-width: 767.98px)
+@media (min-width: 768px) and (max-width: 991.98px) 
+@media (min-width: 992px) and (max-width: 1199.98px)
+@media (min-width: 1200px)
