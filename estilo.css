@@ -1,5 +1,5 @@
 body{
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif; /* Todo el documento*/
 }
 
 .navbar{
@@ -12,13 +12,12 @@ body{
 .nav-link:hover { color: #ff9234;}
 .nav-link{ font-size: 25px;}
 
-
-
-h1{ 
+h1{                             /*Encabezado de la pagina*/
     font-size: 80px;
     font-weight: 600px;
-    line-height: 80px;
+    line-height: 80px; 
     color: #f7f141;
+    opacity: 100%;
 }
 h2{
     font-size: 40px;
@@ -53,7 +52,7 @@ p{
 
 
 
-.quiensoy-container{
+.quiensoycontainer{
     position: relative;
     overflow: hidden;
     margin: 20px;
@@ -67,12 +66,14 @@ p{
     z-index: 9000;
 }
 
-.bg-dark{
+.bg-dark{                                       /*Color del Footer*/
     background-color: #f4f4f4 !important;
 }
  
 .img-fluid{
+
     size: 200px;
+    padding: 20px ;
 }
 
 
@@ -90,6 +91,7 @@ p{
 
 #hero1 {
     background-image: url("imagenes/programacion.jpg");
+    opacity: 95%;
     background-size: cover;
     padding-top: 90px;
     min-height: 500px;
@@ -105,8 +107,9 @@ p{
 }
 
 #footer{
-    padding: 80px 0;
+    padding: 20px 0;
     text-align: center;
+    height: 170px;
 
 }
 
@@ -121,9 +124,14 @@ p{
 
 .footer .list-inline .list-inline-item{
     padding: 10px 15px;
+}
 
-
-
+button{
+    border: none;
+    background-color: #f4f4f4;
+    border: solid;
+    border-color: #58b4ae;
+    border-width: 1px;
 }
 
 
