@@ -122,6 +122,10 @@ p{
 
 }
 
+.list-inline{
+    display:inline;
+}
+
 .footer .list-inline .list-inline-item{
     padding: 10px 15px;
 }
