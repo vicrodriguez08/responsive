@@ -89,7 +89,7 @@ p{
 .navbar-toggler {font-size: 40px;}
 .navbar-toggler:focus{outline:none}
 
-#hero1 {
+#Inicio {
     background-image: url("imagenes/programacion.jpg");
     opacity: 95%;
     background-size: cover;
@@ -106,28 +106,26 @@ p{
 
 }
 
-#footer{
+#Contacto{
     padding: 20px 0;
     text-align: center;
     height: 170px;
 
 }
 
-#footer a {
+#Contacto a {
     color:#58b4ae;
 }
 
-#footer a:hover {
+#Contacto a:hover {
     color: #ff9234;
 
 }
 
-.list-inline{
-    display:inline;
-}
-
-.footer .list-inline .list-inline-item{
+.Contacto .list-inline .list-inline-item{
     padding: 10px 15px;
+    display:inline;
+    text-decoration: none;
 }
 
 button{
@@ -137,6 +135,20 @@ button{
     border-color: #58b4ae;
     border-width: 1px;
 }
+
+.list-inline-certificados{
+        text-align: left;
+        display:inline-block;
+        list-style:none;
+        text-decoration:none;
+}
+
+.certificados{
+    color: #000000;
+    font-size: 20px;  
+}
+
+
 
 
 @media (max-width: 575.98px) { 
