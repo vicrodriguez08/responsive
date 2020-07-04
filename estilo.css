@@ -13,11 +13,12 @@ body{
 .nav-link{ font-size: 25px;}
 
 h1{                             /*Encabezado de la pagina*/
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 600px;
-    line-height: 80px; 
-    color: #f7f141;
+    line-height: 100px; 
     opacity: 100%;
+    -webkit-text-stroke: 0px black;
+    color: #ffffff; 
 }
 h2{
     font-size: 40px;
@@ -28,7 +29,7 @@ h2{
 
 p{
     font-size: 25px;
-     color: #f7f141;
+     color: #ffffff;
      line-height: 1.8;
      margin-bottom: 0;
 }
