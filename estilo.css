@@ -84,7 +84,7 @@ p{
 
 .logo-brand{
     min-width: 30px;
-    max-width: 50px;
+    max-width: 40px;
 }
 
 .navbar-toggler {font-size: 40px;}
@@ -149,8 +149,9 @@ button{
 .certificados{
     color: #0645AD;
     font-size: 20px;  
+ 
 }
-
+.certificados:hover { color: #ff9234;}
 
 
 
