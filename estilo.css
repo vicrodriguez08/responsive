@@ -83,8 +83,8 @@ p{
 .topmargin-lg{ margin-top: 60px;}
 
 .logo-brand{
-    min-width: 30px;
-    max-width: 40px;
+    min-width: 100px;
+    max-width: 110px;
 }
 
 .navbar-toggler {font-size: 40px;}
@@ -133,10 +133,11 @@ button{
     border: none;
     background-color: #f4f4f4;
     border: solid;
-    border-color: #58b4ae;
+    border-color: #0645AD;;
     border-width: 1px;
     border-radius: 10px;
 }
+
 
 .list-inline-certificados{
         text-align: left;
