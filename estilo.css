@@ -8,7 +8,7 @@ body{
     min-height: 90px;
 }
 
-.nav-link{color: #58b4ae;}
+.nav-link{color: #0645AD;}
 .nav-link:hover { color: #ff9234;}
 .nav-link{ font-size: 25px;}
 
@@ -22,7 +22,7 @@ h1{                             /*Encabezado de la pagina*/
 }
 h2{
     font-size: 40px;
-    color: #58b4ae;
+    color: #0645AD;
     margin-bottom: 30px;
     margin-top: 40px;
 }
@@ -133,7 +133,7 @@ button{
     border: none;
     background-color: #f4f4f4;
     border: solid;
-    border-color: #0645AD;;
+    border-color: #0645AD;
     border-width: 1px;
     border-radius: 10px;
 }
@@ -147,12 +147,17 @@ button{
         color:#0645AD;
 }
 
+h3{color: #0645AD;
+}
+
+
 .certificados{
     color: #0645AD;
     font-size: 20px;  
  
 }
 .certificados:hover { color: #ff9234;}
+.list-inline:hover { color: #ff9234;}
 
 
 
